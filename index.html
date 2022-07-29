@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alter Color</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8ee7cce195.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Color Lighten/Darken</h1>
+
+        <label for="hex">Color (Hex)</label>
+        <div class="inputHex">
+            <input type="text" name="hex" id="hexInput" placeholder="#000000" value="#c6d5ac" />
+    
+        </div>
+        
+        <div class="toggle">
+            <p id="lightenText" class="toggle-text">Lighten</p>
+            <div id="toggleBtn" class="toggle-btn">
+                <div class="inner-circle"></div>
+            </div>
+            <p id="darkenText" class="toggle-text unselected">Darken</p>
+        </div>
+
+        <label for="slider" id="sliderText">0%</label>
+        <input type="range" min="0" max="100" value="0" class="slider" id="slider" name="slider" />
+        <p>Input color</p>
+        <div id="inputColor" class="box"></div>
+        <p id="alteredColorText">Altered Color </p>
+        <div id="alteredColor" class="box"></div>
+
+        <!-- footer section  -->
+        <div class="footer" id="footer">
+            <h3>Made with <i class="fa-solid fa-heart"></i> Piyush Kumar</h3>
+            <div class="icons">
+                <a href="https://github.com/piyushkumarg" class="social_icon_link" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/piyushkumarreal/" target="_blank" class="social_icon_link"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://t.me/PiyushKumarReal" target="_blank" class="social_icon_link"><i
+                        class="fab fa-telegram"></i></a>
+                <a href="https://www.linkedin.com/in/piyush-kumarg/" target="_blank" class="social_icon_link"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/PiyushKumarReal" target="_blank" class="social_icon_link"><i
+                        class="fab fa-twitter"></i></a>
+            </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
